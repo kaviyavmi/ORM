@@ -23,11 +23,25 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```python
+from django.contrib import admin 
+from expapp.models import Student admin.site.register(Student) 
+from django.db import models
+
+Create your models here.
 
 
+class Student(models.Model):
+user=models.CharField(max_length=100) 
+password=models.CharField(max_length=100) 
+email=models.EmailField() 
+phone=models.CharField(max_length=100) 
+profile=models.ImageField(upload_to='profile/')
+address=models.TextField()
+```
 
 ## OUTPUT
-
+![alt text](<Screenshot 2025-03-19 162123-1.png>)
 Include the screenshot of your admin page.
 
 
