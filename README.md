@@ -42,7 +42,7 @@ address=models.TextField()
 
 ## OUTPUT
 ![alt text](<Screenshot 2025-03-19 162123-1.png>)
-Include the screenshot of your admin page.
+
 
 
 ## RESULT
